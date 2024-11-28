@@ -1,9 +1,9 @@
-Errors observed during code setup:
+#Errors observed during code setup:
 	1. IllegalArgumentException for get endpoint for account(String)
 	2. Naming convension for few packages
 	3. Missing Stereo Annotation on email service
 
-Improvment/Extra work:
+#Improvment/Extra work:
 	1. While getting sender and reciever details from DB we can pull it in single DB call to avoid multiple DB calls.
 	2. For the thread safety we can use optimistic lock based on version control. 
 	3. Better Transaction Management to revert changes.
